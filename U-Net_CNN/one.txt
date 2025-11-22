@@ -1,0 +1,53 @@
+requirements
+1. torch
+2. matplotlib
+3. sentinelhub
+
+
+process
+1. run npy_gen.py to generate the dataset
+2. run debug to check the quality of dataset
+3. run tne tr.py to train the model
+4. run eval.py to get model's average loss and pixel Accuracy
+5. run pred.py to predict if flood or safe
+
+* NOTE: add ur own sentinel hub's client id and password
+** do some changes in npy_gen.py for more data
+
+
+
+
+
+The loss and Accuracy per epoch
+Epoch  | Loss       | Accuracy  
+-----------------------------------
+1      | 0.4758     | 96.38%
+2      | 0.3001     | 96.46%
+3      | 0.2115     | 96.60%
+4      | 0.1771     | 97.19%
+5      | 0.1454     | 97.00%
+6      | 0.1386     | 96.45%
+7      | 0.1221     | 98.01%
+8      | 0.1159     | 97.15%
+9      | 0.1135     | 97.58%
+10     | 0.1355     | 96.34%
+11     | 0.0894     | 97.02%
+12     | 0.1072     | 97.12%
+13     | 0.0971     | 97.91%
+14     | 0.0896     | 97.77%
+15     | 0.0925     | 96.62%
+16     | 0.0881     | 98.20%
+17     | 0.0957     | 97.97%
+18     | 0.0887     | 97.97%
+19     | 0.1003     | 96.14%
+20     | 0.0811     | 98.03%
+21     | 0.0749     | 98.20%
+22     | 0.0755     | 98.32%
+23     | 0.0852     | 97.69%
+24     | 0.0745     | 98.15%
+25     | 0.0764     | 97.13%
+26     | 0.0819     | 98.11%
+27     | 0.0790     | 97.09%
+28     | 0.0779     | 97.41%
+29     | 0.0692     | 97.64%
+30     | 0.0875     | 97.88%
